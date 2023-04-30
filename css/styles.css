@@ -5,75 +5,76 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
-}
-
-header {
+  }
+  
+  header {
     text-align: center;
     margin: 50px 0;
-}
-
-h1 {
+  }
+  
+  h1 {
     font-size: 36px;
     margin-bottom: 10px;
-}
-
-p {
+  }
+  
+  p {
     font-size: 20px;
     margin-bottom: 30px;
-}
-
-section {
+  }
+  
+  section {
     margin-bottom: 50px;
-}
-h2 {
+  }
+  
+  h2 {
     font-size: 28px;
     margin-bottom: 20px;
-}
-
-ul {
+  }
+  
+  ul {
     list-style: none;
     margin: 0;
     padding: 0;
-}
-
-li {
+  }
+  
+  li {
     font-size: 20px;
     margin-bottom: 10px;
-}
-
-a {
+  }
+  
+  a {
     color: #337ab7;
     text-decoration: none;
-}
-
-a:hover {
+  }
+  
+  a:hover {
     text-decoration: underline;
-}
-
-.navbar {
-    margin-bottom: 0
-}
-
-.navbar-inverse {
+  }
+  
+  .navbar {
+    margin-bottom: 0;
+  }
+  
+  .navbar-inverse {
     background-color: #004080;
     border-color: #004080;
-}
-
-.navbar-inverse .navbar-brand {
-color: #ffffff;
-}
-
-.navbar-inverse .navbar-nav>li>a {
+  }
+  
+  .navbar-inverse .navbar-brand {
     color: #ffffff;
-}
-
-.navbar-inverse .navbar-nav>li>a:hover,
-.navbar-inverse .navbar-nav>li>a:focus {
+  }
+  
+  .navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+  }
+  
+  .navbar-inverse .navbar-nav>li>a:hover,
+  .navbar-inverse .navbar-nav>li>a:focus {
     color: #ffffff;
     background-color: #00264d;
-}
-
-.footer {
+  }
+  
+  .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -82,23 +83,80 @@ color: #ffffff;
     color: #fff;
     padding: 1rem;
     text-align: center;
-}
-
-.footer p {
+  
+  }
+  
+  .footer p {
     margin-bottom: 0;
-}
-
-@media (max-width: 767px) {
+  }
+  
+  @media (max-width: 767px) {
     h1 {
-        font-size: 24px;
+      font-size: 24px;
     }
     p {
-        font-size: 16px;
+      font-size: 16px;
     }
     h2 {
-        font-size: 24px;
+      font-size: 24px;
     }
     li {
-        font-size: 16px;
+      font-size: 16px;
     }
-}
+  }
+  
+  /* Mortgage CSS */
+  
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 30px;
+  }
+  
+  label {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  input {
+    font-size: 20px;
+  }
+  
+  button {
+    margin-top: 30px;
+    margin-right: 10px;
+  }
+  
+  #output {
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  
+  @media (max-width: 767px) {
+    h1 {
+      font-size: 24px;
+    }
+    label {
+      font-size: 16px;
+    }
+    input {
+      font-size: 16px;
+    }
+    #output {
+      font-size: 16px;
+    }
+  }
+
