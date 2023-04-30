@@ -50,3 +50,55 @@ a:hover {
     text-decoration: underline;
 }
 
+.navbar {
+    margin-bottom: 0
+}
+
+.navbar-inverse {
+    background-color: #004080;
+    border-color: #004080;
+}
+
+.navbar-inverse .navbar-brand {
+color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+    color: #ffffff;
+    background-color: #00264d;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    li {
+        font-size: 16px;
+    }
+}
