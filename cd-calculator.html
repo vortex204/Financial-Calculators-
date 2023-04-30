@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CD Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="mortgage.html>Mortgage Calculator"></a></li>
+            <li><A href="annuity_calculator.html">Annuity Calculator</A></li>
+        </ul>
+    </nav>
+    <h1>CD Calculator</h1>
+    <form>
+        <label for="principal">Deposit Amount:</label>
+        <input type="number" id="principal" name="principal" required /><br />
+  
+        <label for="interest">Interest Rate:</label>
+        <input type="number" id="interest" name="interest" step="0.01" required /><br />
+  
+        <label for="years">Number of Years:</label>
+        <input type="number" id="years" name="years" required /><br />
+  
+        <button type="button" onclick="calculateCD()">Calculate</button>
+        <button type="reset">Reset</button>
+      </form>
+      <div id="output"></div>
+    </body>
+  </html>
+  
+
