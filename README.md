@@ -14,4 +14,4 @@ The TrueNorth Financial Calculator website provides a set of financial calculato
 
 ![Homepage](screenshots/homepage.jpg)
 ![Homepage](screenshots/mortgage.jpg)
-![Homepage](screenshots/cdcalc.jpg)
+![Homepage](screenshots/CDcalc.jpg)
